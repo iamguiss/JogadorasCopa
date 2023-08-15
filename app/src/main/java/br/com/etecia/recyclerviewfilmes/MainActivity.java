@@ -30,27 +30,27 @@ public class MainActivity extends AppCompatActivity {
                 new Filmes("O Rei da Montanha",
                         "Espen Ash Lad, filho de um pobre agricultor, embarca em uma missão perigosa com seus irmãos para salvar a princesa de um vilão conhecido como o Rei da Montanha.",
                         "Aventura",
-                        R.drawable.rei_montanha));
+                        R.drawable.leon));
         listaFilmes.add(
                 new Filmes("O Apocalipe",
                         "Espen Ash Lad, filho de um pobre agricultor, embarca em uma missão perigosa com seus irmãos para salvar a princesa de um vilão conhecido como o Rei da Montanha.",
                         "Aventura",
-                        R.drawable.apocalipe));
+                        R.drawable.alisha);
         listaFilmes.add(
                 new Filmes("2067",
                         "Espen Ash Lad, filho de um pobre agricultor, embarca em uma missão perigosa com seus irmãos para salvar a princesa de um vilão conhecido como o Rei da Montanha.",
                         "Aventura",
-                        R.drawable.doismilesessetnaesete));
+                        R.drawable.huitema));
         listaFilmes.add(
                 new Filmes("Medo Profundo",
                         "Espen Ash Lad, filho de um pobre agricultor, embarca em uma missão perigosa com seus irmãos para salvar a princesa de um vilão conhecido como o Rei da Montanha.",
                         "Aventura",
-                        R.drawable.medo));
+                        R.drawable.pop));
         listaFilmes.add(
                 new Filmes("A Menina",
                         "Espen Ash Lad, filho de um pobre agricultor, embarca em uma missão perigosa com seus irmãos para salvar a princesa de um vilão conhecido como o Rei da Montanha.",
                         "Aventura",
-                        R.drawable.menina));
+                        R.drawable.p));
         listaFilmes.add(
                 new Filmes("Na Ponta da Bala",
                         "Espen Ash Lad, filho de um pobre agricultor, embarca em uma missão perigosa com seus irmãos para salvar a princesa de um vilão conhecido como o Rei da Montanha.",
