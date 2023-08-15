@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
                 new Filmes("O Apocalipe",
                         "Espen Ash Lad, filho de um pobre agricultor, embarca em uma missão perigosa com seus irmãos para salvar a princesa de um vilão conhecido como o Rei da Montanha.",
                         "Aventura",
-                        R.drawable.alisha);
+                        R.drawable.alisha));
         listaFilmes.add(
                 new Filmes("2067",
                         "Espen Ash Lad, filho de um pobre agricultor, embarca em uma missão perigosa com seus irmãos para salvar a princesa de um vilão conhecido como o Rei da Montanha.",
