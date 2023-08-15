@@ -50,12 +50,58 @@ public class MainActivity extends AppCompatActivity {
                 new Filmes("A Menina",
                         "Espen Ash Lad, filho de um pobre agricultor, embarca em uma missão perigosa com seus irmãos para salvar a princesa de um vilão conhecido como o Rei da Montanha.",
                         "Aventura",
-                        R.drawable.p));
+                        R.drawable.putellas));
         listaFilmes.add(
                 new Filmes("Na Ponta da Bala",
                         "Espen Ash Lad, filho de um pobre agricultor, embarca em uma missão perigosa com seus irmãos para salvar a princesa de um vilão conhecido como o Rei da Montanha.",
                         "Aventura",
-                        R.drawable.pontabala));
+                        R.drawable.lucy));
+        listaFilmes.add(
+                new Filmes("Na Ponta da Bala",
+                        "Espen Ash Lad, filho de um pobre agricultor, embarca em uma missão perigosa com seus irmãos para salvar a princesa de um vilão conhecido como o Rei da Montanha.",
+                        "Aventura",
+                        R.drawable.san));
+        listaFilmes.add(
+                new Filmes("Na Ponta da Bala",
+                        "Espen Ash Lad, filho de um pobre agricultor, embarca em uma missão perigosa com seus irmãos para salvar a princesa de um vilão conhecido como o Rei da Montanha.",
+                        "Aventura",
+                        R.drawable.aslani));
+        listaFilmes.add(
+                new Filmes("Na Ponta da Bala",
+                        "Espen Ash Lad, filho de um pobre agricultor, embarca em uma missão perigosa com seus irmãos para salvar a princesa de um vilão conhecido como o Rei da Montanha.",
+                        "Aventura",
+                        R.drawable.vicki));
+        listaFilmes.add(
+                new Filmes("Na Ponta da Bala",
+                        "Espen Ash Lad, filho de um pobre agricultor, embarca em uma missão perigosa com seus irmãos para salvar a princesa de um vilão conhecido como o Rei da Montanha.",
+                        "Aventura",
+                        R.drawable.lauren));
+        listaFilmes.add(
+                new Filmes("Na Ponta da Bala",
+                        "Espen Ash Lad, filho de um pobre agricultor, embarca em uma missão perigosa com seus irmãos para salvar a princesa de um vilão conhecido como o Rei da Montanha.",
+                        "Aventura",
+                        R.drawable.caicedo));
+        listaFilmes.add(
+                new Filmes("Na Ponta da Bala",
+                        "Espen Ash Lad, filho de um pobre agricultor, embarca em uma missão perigosa com seus irmãos para salvar a princesa de um vilão conhecido como o Rei da Montanha.",
+                        "Aventura",
+                        R.drawable.ada));
+        listaFilmes.add(
+                new Filmes("Na Ponta da Bala",
+                        "Espen Ash Lad, filho de um pobre agricultor, embarca em uma missão perigosa com seus irmãos para salvar a princesa de um vilão conhecido como o Rei da Montanha.",
+                        "Aventura",
+                        R.drawable.carli));
+        listaFilmes.add(
+                new Filmes("Na Ponta da Bala",
+                        "Espen Ash Lad, filho de um pobre agricultor, embarca em uma missão perigosa com seus irmãos para salvar a princesa de um vilão conhecido como o Rei da Montanha.",
+                        "Aventura",
+                        R.drawable.aslani));
+
+
+
+
+
+
 
 
         //criando a classe adaptadora e passando os parâmetros
