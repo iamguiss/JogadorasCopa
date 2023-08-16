@@ -21,15 +21,16 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //Apresentando o xml para o java
-        idRecyclerView = findViewById(R.id.idListaFilmes);
+        idRecyclerView = findViewById(R.id.idjogadoras);
 
         //Criando a base de dados para carregamento da lista de filmes
         listaFilmes = new ArrayList<>();
 
         listaFilmes.add(
-                new Filmes("O Rei da Montanha",
-                        "Espen Ash Lad, filho de um pobre agricultor, embarca em uma missão perigosa com seus irmãos para salvar a princesa de um vilão conhecido como o Rei da Montanha.",
-                        "Aventura",
+                new Jogadoras("leon",
+                        "manchester United",
+                        "copa Algarve",
+                        'Atacante',
                         R.drawable.leon));
         listaFilmes.add(
                 new Filmes("O Apocalipe",

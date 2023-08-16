@@ -24,10 +24,10 @@ public class ApresentaFilmeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.apresenta_filme_layout);
 
-        mTitulo = findViewById(R.id.mTituloFilme);
+        mTitulo = findViewById(R.id.mDescricao);
         mCategoria = findViewById(R.id.mCategoria);
         mDescricao = findViewById(R.id.mDescricao);
-        mImagem = findViewById(R.id.mImagemFilme);
+        mImagem = findViewById(R.id.mImagemJogadora);
         btnVoltar = findViewById(R.id.btnVoltar);
 
         idToolbar = findViewById(R.id.idToolBar);
