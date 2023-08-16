@@ -97,6 +97,59 @@ public class MainActivity extends AppCompatActivity {
                         "Aventura",
                         R.drawable.aslani));
 
+        listaFilmes.add(
+                new Filmes("Na Ponta da Bala",
+                        "Espen Ash Lad, filho de um pobre agricultor, embarca em uma missão perigosa com seus irmãos para salvar a princesa de um vilão conhecido como o Rei da Montanha.",
+                        "Aventura",
+                        R.drawable.mateo));
+        listaFilmes.add(
+                new Filmes("Na Ponta da Bala",
+                        "Espen Ash Lad, filho de um pobre agricultor, embarca em uma missão perigosa com seus irmãos para salvar a princesa de um vilão conhecido como o Rei da Montanha.",
+                        "Aventura",
+                        R.drawable.markovik));
+        listaFilmes.add(
+                new Filmes("Na Ponta da Bala",
+                        "Espen Ash Lad, filho de um pobre agricultor, embarca em uma missão perigosa com seus irmãos para salvar a princesa de um vilão conhecido como o Rei da Montanha.",
+                        "Aventura",
+                        R.drawable.swaby));
+        listaFilmes.add(
+                new Filmes("Na Ponta da Bala",
+                        "Espen Ash Lad, filho de um pobre agricultor, embarca em uma missão perigosa com seus irmãos para salvar a princesa de um vilão conhecido como o Rei da Montanha.",
+                        "Aventura",
+                        R.drawable.morgan));
+        listaFilmes.add(
+                new Filmes("Na Ponta da Bala",
+                        "Espen Ash Lad, filho de um pobre agricultor, embarca em uma missão perigosa com seus irmãos para salvar a princesa de um vilão conhecido como o Rei da Montanha.",
+                        "Aventura",
+                        R.drawable.marta));
+        listaFilmes.add(
+                new Filmes("Na Ponta da Bala",
+                        "Espen Ash Lad, filho de um pobre agricultor, embarca em uma missão perigosa com seus irmãos para salvar a princesa de um vilão conhecido como o Rei da Montanha.",
+                        "Aventura",
+                        R.drawable.debs));
+        listaFilmes.add(
+                new Filmes("Na Ponta da Bala",
+                        "Espen Ash Lad, filho de um pobre agricultor, embarca em uma missão perigosa com seus irmãos para salvar a princesa de um vilão conhecido como o Rei da Montanha.",
+                        "Aventura",
+                        R.drawable.megan));
+        listaFilmes.add(
+                new Filmes("Na Ponta da Bala",
+                        "Espen Ash Lad, filho de um pobre agricultor, embarca em uma missão perigosa com seus irmãos para salvar a princesa de um vilão conhecido como o Rei da Montanha.",
+                        "Aventura",
+                        R.drawable.kealia));
+        listaFilmes.add(
+                new Filmes("Na Ponta da Bala",
+                        "Espen Ash Lad, filho de um pobre agricultor, embarca em uma missão perigosa com seus irmãos para salvar a princesa de um vilão conhecido como o Rei da Montanha.",
+                        "Aventura",
+                        R.drawable.havana));
+
+
+
+
+
+
+
+
 
 
 
