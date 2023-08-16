@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
-    List<Filmes> listaFilmes;
+    List<Jogadoras> listaFilmes;
 
     //Declarar o recycler view
     RecyclerView idRecyclerView;
@@ -30,116 +30,115 @@ public class MainActivity extends AppCompatActivity {
                 new Jogadoras("leon",
                         "manchester United",
                         "copa Algarve",
-                        'Atacante',
                         R.drawable.leon));
         listaFilmes.add(
-                new Filmes("O Apocalipe",
+                new Jogadoras("O Apocalipe",
                         "Espen Ash Lad, filho de um pobre agricultor, embarca em uma missão perigosa com seus irmãos para salvar a princesa de um vilão conhecido como o Rei da Montanha.",
                         "Aventura",
                         R.drawable.alisha));
         listaFilmes.add(
-                new Filmes("2067",
+                new Jogadoras("2067",
                         "Espen Ash Lad, filho de um pobre agricultor, embarca em uma missão perigosa com seus irmãos para salvar a princesa de um vilão conhecido como o Rei da Montanha.",
                         "Aventura",
                         R.drawable.huitema));
         listaFilmes.add(
-                new Filmes("Medo Profundo",
+                new Jogadoras("Medo Profundo",
                         "Espen Ash Lad, filho de um pobre agricultor, embarca em uma missão perigosa com seus irmãos para salvar a princesa de um vilão conhecido como o Rei da Montanha.",
                         "Aventura",
                         R.drawable.pop));
         listaFilmes.add(
-                new Filmes("A Menina",
+                new Jogadoras("A Menina",
                         "Espen Ash Lad, filho de um pobre agricultor, embarca em uma missão perigosa com seus irmãos para salvar a princesa de um vilão conhecido como o Rei da Montanha.",
                         "Aventura",
                         R.drawable.putellas));
         listaFilmes.add(
-                new Filmes("Na Ponta da Bala",
+                new Jogadoras("Na Ponta da Bala",
                         "Espen Ash Lad, filho de um pobre agricultor, embarca em uma missão perigosa com seus irmãos para salvar a princesa de um vilão conhecido como o Rei da Montanha.",
                         "Aventura",
                         R.drawable.lucy));
         listaFilmes.add(
-                new Filmes("Na Ponta da Bala",
+                new Jogadoras("Na Ponta da Bala",
                         "Espen Ash Lad, filho de um pobre agricultor, embarca em uma missão perigosa com seus irmãos para salvar a princesa de um vilão conhecido como o Rei da Montanha.",
                         "Aventura",
                         R.drawable.san));
         listaFilmes.add(
-                new Filmes("Na Ponta da Bala",
+                new Jogadoras("Na Ponta da Bala",
                         "Espen Ash Lad, filho de um pobre agricultor, embarca em uma missão perigosa com seus irmãos para salvar a princesa de um vilão conhecido como o Rei da Montanha.",
                         "Aventura",
                         R.drawable.aslani));
         listaFilmes.add(
-                new Filmes("Na Ponta da Bala",
+                new Jogadoras("Na Ponta da Bala",
                         "Espen Ash Lad, filho de um pobre agricultor, embarca em uma missão perigosa com seus irmãos para salvar a princesa de um vilão conhecido como o Rei da Montanha.",
                         "Aventura",
                         R.drawable.vicki));
         listaFilmes.add(
-                new Filmes("Na Ponta da Bala",
+                new Jogadoras("Na Ponta da Bala",
                         "Espen Ash Lad, filho de um pobre agricultor, embarca em uma missão perigosa com seus irmãos para salvar a princesa de um vilão conhecido como o Rei da Montanha.",
                         "Aventura",
                         R.drawable.lauren));
         listaFilmes.add(
-                new Filmes("Na Ponta da Bala",
+                new Jogadoras("Na Ponta da Bala",
                         "Espen Ash Lad, filho de um pobre agricultor, embarca em uma missão perigosa com seus irmãos para salvar a princesa de um vilão conhecido como o Rei da Montanha.",
                         "Aventura",
                         R.drawable.caicedo));
         listaFilmes.add(
-                new Filmes("Na Ponta da Bala",
+                new Jogadoras("Na Ponta da Bala",
                         "Espen Ash Lad, filho de um pobre agricultor, embarca em uma missão perigosa com seus irmãos para salvar a princesa de um vilão conhecido como o Rei da Montanha.",
                         "Aventura",
                         R.drawable.ada));
         listaFilmes.add(
-                new Filmes("Na Ponta da Bala",
+                new Jogadoras("Na Ponta da Bala",
                         "Espen Ash Lad, filho de um pobre agricultor, embarca em uma missão perigosa com seus irmãos para salvar a princesa de um vilão conhecido como o Rei da Montanha.",
                         "Aventura",
                         R.drawable.carli));
         listaFilmes.add(
-                new Filmes("Na Ponta da Bala",
+                new Jogadoras("Na Ponta da Bala",
                         "Espen Ash Lad, filho de um pobre agricultor, embarca em uma missão perigosa com seus irmãos para salvar a princesa de um vilão conhecido como o Rei da Montanha.",
                         "Aventura",
                         R.drawable.aslani));
 
         listaFilmes.add(
-                new Filmes("Na Ponta da Bala",
+                new Jogadoras("Na Ponta da Bala",
                         "Espen Ash Lad, filho de um pobre agricultor, embarca em uma missão perigosa com seus irmãos para salvar a princesa de um vilão conhecido como o Rei da Montanha.",
                         "Aventura",
                         R.drawable.mateo));
         listaFilmes.add(
-                new Filmes("Na Ponta da Bala",
+                new Jogadoras("Na Ponta da Bala",
                         "Espen Ash Lad, filho de um pobre agricultor, embarca em uma missão perigosa com seus irmãos para salvar a princesa de um vilão conhecido como o Rei da Montanha.",
                         "Aventura",
                         R.drawable.markovik));
         listaFilmes.add(
-                new Filmes("Na Ponta da Bala",
+                new Jogadoras("Na Ponta da Bala",
                         "Espen Ash Lad, filho de um pobre agricultor, embarca em uma missão perigosa com seus irmãos para salvar a princesa de um vilão conhecido como o Rei da Montanha.",
                         "Aventura",
                         R.drawable.swaby));
         listaFilmes.add(
-                new Filmes("Na Ponta da Bala",
+                new Jogadoras("Na Ponta da Bala",
                         "Espen Ash Lad, filho de um pobre agricultor, embarca em uma missão perigosa com seus irmãos para salvar a princesa de um vilão conhecido como o Rei da Montanha.",
                         "Aventura",
                         R.drawable.morgan));
         listaFilmes.add(
-                new Filmes("Na Ponta da Bala",
+                new Jogadoras("Na Ponta da Bala",
                         "Espen Ash Lad, filho de um pobre agricultor, embarca em uma missão perigosa com seus irmãos para salvar a princesa de um vilão conhecido como o Rei da Montanha.",
                         "Aventura",
                         R.drawable.marta));
         listaFilmes.add(
-                new Filmes("Na Ponta da Bala",
+                new Jogadoras("Na Ponta da Bala",
                         "Espen Ash Lad, filho de um pobre agricultor, embarca em uma missão perigosa com seus irmãos para salvar a princesa de um vilão conhecido como o Rei da Montanha.",
                         "Aventura",
                         R.drawable.debs));
         listaFilmes.add(
-                new Filmes("Na Ponta da Bala",
+                new Jogadoras("Na Ponta da Bala",
                         "Espen Ash Lad, filho de um pobre agricultor, embarca em uma missão perigosa com seus irmãos para salvar a princesa de um vilão conhecido como o Rei da Montanha.",
                         "Aventura",
                         R.drawable.megan));
         listaFilmes.add(
-                new Filmes("Na Ponta da Bala",
+                new Jogadoras("Na Ponta da Bala",
                         "Espen Ash Lad, filho de um pobre agricultor, embarca em uma missão perigosa com seus irmãos para salvar a princesa de um vilão conhecido como o Rei da Montanha.",
                         "Aventura",
                         R.drawable.kealia));
         listaFilmes.add(
-                new Filmes("Na Ponta da Bala",
+                new Jogadoras("Na Ponta da Bala",
                         "Espen Ash Lad, filho de um pobre agricultor, embarca em uma missão perigosa com seus irmãos para salvar a princesa de um vilão conhecido como o Rei da Montanha.",
                         "Aventura",
                         R.drawable.havana));

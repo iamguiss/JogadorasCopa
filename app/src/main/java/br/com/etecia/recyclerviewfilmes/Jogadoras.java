@@ -1,43 +1,43 @@
 package br.com.etecia.recyclerviewfilmes;
 
-public class Filmes {
-    private String titulo;
-    private String descricao;
-    private String categoria;
+public class Jogadoras {
+    private String Titulos;
+    private String Times;
+    private String Posição;
     private int imagem;
 
     //criar o construtor com parâmetros alt+insert
 
-    public Filmes(String titulo, String descricao, String categoria, int imagem) {
-        this.titulo = titulo;
-        this.descricao = descricao;
-        this.categoria = categoria;
+    public Jogadoras(String titulo, String descricao, String categoria, int imagem) {
+        this.Titulos = titulo;
+        this.Times = Times;
+        this.Posição = Posição;
         this.imagem = imagem;
     }
 
     //criando os métodos de acesso get and setter
     public String getTitulo() {
-        return titulo;
+        return Titulos;
     }
 
     public void setTitulo(String titulo) {
-        this.titulo = titulo;
+        this.Titulos = titulo;
     }
 
     public String getDescricao() {
-        return descricao;
+        return Times;
     }
 
     public void setDescricao(String descricao) {
-        this.descricao = descricao;
+        this.Times = Times;
     }
 
     public String getCategoria() {
-        return categoria;
+        return Posição;
     }
 
     public void setCategoria(String categoria) {
-        this.categoria = categoria;
+        this.Posição = Posição;
     }
 
     public int getImagem() {

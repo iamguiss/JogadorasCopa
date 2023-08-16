@@ -11,6 +11,8 @@ import android.widget.TextView;
 
 import com.google.android.material.appbar.MaterialToolbar;
 
+import java.sql.Time;
+
 public class ApresentaFilmeActivity extends AppCompatActivity {
 
     TextView mTitulo, mCategoria, mDescricao;
@@ -24,9 +26,9 @@ public class ApresentaFilmeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.apresenta_filme_layout);
 
-        mTitulo = findViewById(R.id.mDescricao);
-        mCategoria = findViewById(R.id.mCategoria);
-        mDescricao = findViewById(R.id.mDescricao);
+        mTitulo = findViewById(R.id.mTitulo);
+        View mTime = findViewById(R.id.mTime);
+        View mPosicao = findViewById(R.id.mPosicao);
         mImagem = findViewById(R.id.mImagemJogadora);
         btnVoltar = findViewById(R.id.btnVoltar);
 
@@ -51,18 +53,19 @@ public class ApresentaFilmeActivity extends AppCompatActivity {
         //Declarando intent para receber valor
         Intent intent = getIntent();
         //Declarando as variáveis que irão receber o valor
-        String titulo, descricao, categoria;
+        String titulo, Time, Posição;
         int imagemFilme;
 
         titulo = intent.getExtras().getString("Titulo");
-        descricao = intent.getExtras().getString("Descricao");
-        categoria = intent.getExtras().getString("Categoria");
+        Time = intent.getExtras().getString("Time");
+        Posição = intent.getExtras().getString("posicão");
+
 
         imagemFilme = intent.getExtras().getInt("ImagemFilme");
 
         mTitulo.setText(titulo);
-        mDescricao.setText(descricao);
-        mCategoria.setText(categoria);
+        mDescricao.setText(Time);
+        mCategoria.setText(Posição);
         mImagem.setImageResource(imagemFilme);
 
     }
